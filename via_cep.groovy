@@ -33,10 +33,7 @@ import groovy.json.*;
 
         // Acrescentando as mundaças no JsonObject
         def json = new JsonBuilder(jsonObject).toPrettyString();
-        message.setBody(json);
-
-        println dt
-       
+        message.setBody(json);      
         
              
         return message;
